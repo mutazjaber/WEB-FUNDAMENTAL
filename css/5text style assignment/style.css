@@ -1,0 +1,33 @@
+h1 {
+    margin-bottom: 7px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    width: auto;
+}
+.cloud {
+    color: aqua;
+}
+h2 {
+    margin-top: 7px;
+    background-color: #663399;
+    color: white;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: cursive ;
+    margin-bottom: 10px;
+}
+h3{
+    margin-top: 10px;
+    text-decoration: underline;
+    text-align:right ;
+    background-color:#9fc5f8 ;
+    height: 30px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

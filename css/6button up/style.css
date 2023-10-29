@@ -1,0 +1,37 @@
+#search {   
+    margin-top: 65px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 200px;
+    border-color: aqua;
+    height: 30px;
+    font-weight: 900  ;
+    border: 2px solid aqua;
+    color : aqua;
+}
+#pluss {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px; 
+    border-radius: 50%  ;
+    width: 50px;
+    border-color: aqua;
+    height: 50px;
+    font-weight: 900  ;
+    border: 2px solid aqua;
+    background-color: aqua;
+    color: white   ;
+}
+
+#creataccount {
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 250px;
+    height: 45px;
+    font-weight: 900  ;
+    border: 3px solid #000000;
+    background-color: #0081ff;
+    color: white   ;
+    box-shadow: 10px 5px 5px  #000000;
+}

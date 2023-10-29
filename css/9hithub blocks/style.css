@@ -1,0 +1,41 @@
+h1 {
+    font-size: 8em;
+    text-align: center;
+    color: blueviolet;
+    border-bottom: 2px solid red;
+    border-width: 3px;
+} 
+
+img {
+    height: 25% ;
+    width: 25%;
+    margin: 40px;
+}
+
+.row1  {
+    display: flex;
+    background-color: #5cc8d1 ;
+    justify-content:space-around ;
+    margin: 40px;
+}
+.row2{
+    display: flex;
+    background-color: #d3afc5;
+    margin: 40px;
+    justify-content: space-evenly;
+
+}
+.row3 {
+    display: flex;
+    justify-content:space-around ;
+    margin: 40px;
+    border: 3px dashed black;
+}
+u {
+    color: blue;
+}
+h4 {
+    text-align: center;
+    font-size: 2em;
+
+}

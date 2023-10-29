@@ -1,0 +1,41 @@
+h1{
+    font-family:"Poppins",sans-serif;
+    color: white;
+    margin: 30px;
+    padding: 15px;
+}
+.container {
+    display: flex ;
+    background-color: #2a2828 ; 
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+.navbar{
+    padding-left: 30px;
+}
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+
+}
+li{
+    width: 100px;
+    padding: 20px;
+}
+.button {
+    background-color: #17a2b8 ;
+    color: white;
+    box-shadow: 5px  5px black;
+    height: 25px;
+    width: 70px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: small;
+}

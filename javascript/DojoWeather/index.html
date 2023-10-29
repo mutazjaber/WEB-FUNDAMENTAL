@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>DojoWeather</h1>
+        <ul>
+            <li><a id="Burbank" onclick="alerto(this)" href="#"> Burbank</a></li>
+            <li>Chicago</li>
+            <li>Dallas</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="selecttemp">
+            <h2>San Jose</h2>
+            <h4>show temprerature in</h4>
+            <select name="temprerature unit " id="temprerature-unit">
+                <option value="celsius">°C</option>
+                <option value="fahrenheit">°F</option>
+            </select>
+        </div>
+        <div class="daytime-temp">
+            <div class="weather">
+                <h2>Today</h2>
+                <img src="assets/some_rain.png" alt="some_rain">
+                <h3>some rain</h3>
+                <div id="date-temp">
+                    <span id="max-temp">24°</span>    
+                    <span id="min-temp">18°</span>
+                </div>
+            </div>
+            <div class="weather">
+                <h2>Tomorrow</h2>
+                <img src="assets/some_sun.png" alt="some_sun">
+                <h3>some sun</h3>
+                <div id="date-temp">
+                    <span id="max-temp">27°</span>    
+                    <span id="min-temp">19°</span>
+                </div>
+            </div>
+                <div class="weather">
+                    <h2>Friday</h2>
+                    <img src="assets/some_clouds.png" alt="some_clouds">
+                    <h3>some cloud</h3>
+                    <div id="date-temp">
+                        <span id="max-temp">21°</span>    
+                        <span id="min-temp">16°</span>
+                    </div>
+                </div>
+                <div class="weather">
+                    <h2>Friday</h2>
+                    <img src="assets/some_sun.png" alt="some_sun">
+                    <h3>some sun</h3>
+                    <div id="date-temp">
+                        <span id="max-temp">26°</span>    
+                        <span id="min-temp">21°</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cookie">
+                <img src="assets/cookie.png" alt="cokies">
+                <div>
+                <h3>Stop!Cookie time</h3>
+                <p>Stop! Cookie time We use cookies
+                    (sadly not the edible ones) to personalize <br>
+                    content and ads, to provide social media features and to <br>
+                    analyse our traffic.
+                    <span style="color: blueviolet; text-decoration: underline;" >
+                        Read more...</span>
+                </p>
+                </div>
+                <button onclick="dismiss()" class="accept-button" >I Accept</button>
+            </div>
+    </div>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
