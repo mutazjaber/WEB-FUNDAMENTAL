@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linking Likes Assignment Part ||</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- 1 -->
+        <div class="nav-bar-container">
+            <h1 class="header1">Network</h1>
+        </div>
+
+        <!-- 2 -->
+        <div class="title-container">
+            <span>Your Feed</span>
+        </div>
+        <!-- 3 -->
+        <div class="body-container">
+            <!-- 3.1 -->
+            <div class="left-side-container">
+                <img src="images/userImage.jpg" alt="user-img">
+                <a href="#">Add an avatar</a>
+                <p>James Joe</p>
+            </div>
+            <!-- 3.2 -->
+            <div class="right-side-container">
+                <!-- 3.2.2 -->
+                <div class="card">
+                    <div class="section1">
+                        <div class="name-section"><span>Neil M</span></div>
+                        <div class="like-section">
+                            <div class="number" id="fisrt-number">9</div>
+                            <div>like(s)</div>
+                        </div>
+                        <button type="button" onclick="increaseLikes('fisrt-number')">like</button>
+                    </div>
+                    <div class="section2">
+                        <p>I just set up this new discored bot, let me know what you all think.<a href="">link</a></p>
+                    </div>
+                </div>
+                <!-- 3.2.2 -->
+                <div class="card">
+                    <div class="section1">
+                        <div class="name-section"><span>Nichole K</span></div>
+                        <div class="like-section">
+                            <div class="number" id="second-number">12</div>
+                            <div>like(s)</div>
+                        </div>
+                        <button type="button" onclick="increaseLikes('second-number')">like</button>
+                    </div>
+                    <div class="section2">
+                        <p>Just finished my <a href="">next comic,</a> check it out.</p>
+                    </div>
+                </div>
+                <!-- 3.2.3 -->
+                <div class="card">
+                    <div class="section1">
+                        <div class="name-section"><span>Some User</span></div>
+                        <div class="like-section">
+                            <div class="number" id="third-number">9</div>
+                            <div>like(s)</div>
+                        </div>
+                        <button type="button" onclick="increaseLikes('third-number')">like</button>
+                    </div>
+                    <div class="section2">
+                        <p>I cant't stop listening to the <a href="#">new album.</a><br>Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascripta.js"></script>
+</body>
+
+</html>

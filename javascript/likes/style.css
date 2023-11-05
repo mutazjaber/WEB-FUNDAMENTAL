@@ -1,0 +1,119 @@
+.main-container {
+    margin: 0 auto;
+    width: 520px;
+    font-family: 'Comic Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.main-container .nav-bar-container {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+.main-container .title-container {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.main-container .header1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container .body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.body-container .right-side-container {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 3px;
+    width: 330px;
+    margin: auto;
+    padding: 5px 10px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 900;
+}
+
+.card .section1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .like-section {
+    display: flex;
+    flex-direction: row;
+    margin-right: -132px;
+}
+
+button {
+    margin-left: 50px;
+    font-family: 'Comic Neue', cursive;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    background-color: #FFD966;
+    padding: 0px 10px 0px 10px;
+    font-weight: 900;
+    padding: 3px 14px;
+    font-size: 16px;
+}
+
+.container .section2 {
+    align-items: center;
+
+}
+
+.section2 a {
+    color: #145A97;
+}
+
+.number {
+    margin-right: 4px;
+}
+
+.body-container .left-side-container {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 3px;
+    width: fit-content;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+img {
+    height: 75px;
+    width: 75px;
+}
+
+.left-side-container a {
+    color: #145A97;
+    font-size: 15px;
+}
+
+
+
+.left-side-container p {
+
+    font-size: 22px;
+}

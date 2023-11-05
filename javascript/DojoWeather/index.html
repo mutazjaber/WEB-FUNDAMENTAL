@@ -10,8 +10,8 @@
     <div class="navbar">
         <h1>DojoWeather</h1>
         <ul>
-            <li><a id="Burbank" onclick="alerto(this)" href="#"> Burbank</a></li>
-            <li>Chicago</li>
+            <li><a id="Burbank" onclick="alerto(this)" href="#">Burbank</a></li>
+            <li onclick="alerto()"> Chicago </li>
             <li>Dallas</li>
         </ul>
     </div>
@@ -19,9 +19,9 @@
         <div class="selecttemp">
             <h2>San Jose</h2>
             <h4>show temprerature in</h4>
-            <select name="temprerature unit " id="temprerature-unit">
-                <option value="celsius">°C</option>
-                <option value="fahrenheit">°F</option>
+            <select onchange="changeTemp(this)" name="temprerature unit " id="temprerature-unit">
+                <option  value="celsius">°C</option>
+                <option  value="fahrenheit">°F</option>
             </select>
         </div>
         <div class="daytime-temp">
@@ -30,8 +30,8 @@
                 <img src="assets/some_rain.png" alt="some_rain">
                 <h3>some rain</h3>
                 <div id="date-temp">
-                    <span id="max-temp">24°</span>    
-                    <span id="min-temp">18°</span>
+                    <span id="max-temp">24</span>    
+                    <span id="min-temp">18</span>
                 </div>
             </div>
             <div class="weather">
@@ -39,8 +39,8 @@
                 <img src="assets/some_sun.png" alt="some_sun">
                 <h3>some sun</h3>
                 <div id="date-temp">
-                    <span id="max-temp">27°</span>    
-                    <span id="min-temp">19°</span>
+                    <span id="max-temp">27</span>    
+                    <span id="min-temp">19</span>
                 </div>
             </div>
                 <div class="weather">
@@ -48,8 +48,8 @@
                     <img src="assets/some_clouds.png" alt="some_clouds">
                     <h3>some cloud</h3>
                     <div id="date-temp">
-                        <span id="max-temp">21°</span>    
-                        <span id="min-temp">16°</span>
+                        <span id="max-temp">21</span>    
+                        <span id="min-temp">16</span>
                     </div>
                 </div>
                 <div class="weather">
@@ -57,8 +57,8 @@
                     <img src="assets/some_sun.png" alt="some_sun">
                     <h3>some sun</h3>
                     <div id="date-temp">
-                        <span id="max-temp">26°</span>    
-                        <span id="min-temp">21°</span>
+                        <span id="max-temp">26</span>    
+                        <span id="min-temp">21</span>
                     </div>
                 </div>
             </div>
