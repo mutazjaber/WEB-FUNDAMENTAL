@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header-search">
+        <img id="green-leaf-img" src="images/assets/leaf.png" alt="green-leaf">
+        <h1>EazyBay</h1>
+        <input type="text" name="search" id="search-bar" placeholder="search for anything" >
+        <!-- <input type="button"   id="b" > -->
+        <!-- <button type="submit"><img src="images/assets/search-dark.png" alt=""></button> -->
+        <span>Sign In</span>
+        <img onclick="alertempty(this)" src="images/assets/cart-dark.png" alt="cart-icon">
+    </div>
+        <div class="Navbar">
+            <ul class="nav-links">
+                <li><a href="#" >Aeonium</a></li>
+                <li><a href="#" >Andormischus</a></li>
+                <li><a href="#" >Agave</a></li>
+                <li><a href="#" >Aloe</a></li>
+                <li><a href="#" >Anacampseros</a></li>
+                <li><a href="#" >Aristaloe</a></li>
+                <li><a href="#" >More...</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2>Your Source for Serious Succulent Specialties</h2>
+            <div class="row-1">
+                <div class="col-1">
+                    <p>Discover succ-
+                        ulent varieties
+                        one pot or rack
+                        at a time!
+                    </p>
+                    <p>Discover →</p>
+                </div>
+                <div class="col-2">
+                    <img id="imagechange"  src="images/assets/succulents-1.jpg" 
+                    onmouseover="changePic(this)" 
+                    onmouseout="changePicOld(this)"  alt="succulents-1">
+                </div>
+                <div class="col-3">
+                    <img src="images/assets/aloe-m.jpg" alt="">
+                    <p><strong>Soothing Aloe →</strong></p>
+                </div>
+                
+            </div>
+            <div class="row-2">
+                <div class="img-with-text">
+                    <img src="images/assets/aeonium-s.jpg" alt="aeonium-s" />
+                    <p>Aeonium</p>
+                </div>
+                <div class="img-with-text">
+                    <img src="images/assets/aloe-s.jpg" alt="aloe-s" />
+                    <p>Andormischus</p>
+                </div>
+                <div class="img-with-text">
+                    <img src="images/assets/cactus-s.jpg" alt="cactus-s" />
+                    <p>Cactus</p>
+                </div>
+                <div class="img-with-text">
+                    <img src="images/assets/echeveria-s.jpg" alt="aloe-m" />
+                    <p>Aloe </p>
+                </div>
+                <div class="img-with-text">
+                    <img src="images/assets/sedum-s.jpg" alt="aeonium-s" />
+                    <p>Aeonium</p>
+                </div>
+                <div class="img-with-text">
+                    <img src="images/assets/sempervivum-s.jpg" alt="sempervivums" />
+                    <p>Aeonium</p>
+                </div>
+            </div>
+        </div>
+        <div class="cookie">
+            <img src="images/assets/alert-dark.png" alt="alert-dark">
+            <div>
+            <p>This site makes use of third-party cookies, by clicking "I accept" 
+                you agree to the terms outlined in our .
+                <span style="color: blueviolet; text-decoration: underline;" >
+                    cookie policy</span>
+            </p>
+            </div>
+            <button onclick="disapear()" class="accept-button" >I Accept</button>
+        </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

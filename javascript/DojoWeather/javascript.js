@@ -1,9 +1,9 @@
-var hider = document.querySelector(".cookie")
+
 function alerto(element){
     element.style.color = "red";
     alert("Loading weather report...");
 }
-
+var hider = document.getElementsByClassName(".cookie")
 function dismiss(){
     hider.remove()
 }
